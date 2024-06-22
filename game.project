@@ -1,0 +1,26 @@
+[bootstrap]
+main_collection = /main/main.collectionc
+
+[script]
+shared_state = 1
+
+[display]
+width = 960
+height = 640
+
+[android]
+input_method = HiddenInputField
+
+[project]
+title = My Project
+custom_resources = main/
+write_log = 1
+dependencies#0 = https://github.com/dapetcu21/defold-fmod/archive/v2.4.2.zip
+
+[fmod]
+lib_path = ../defold-fmod-2.4.2/fmod/res/
+speaker_mode = stereo
+
+[html5]
+heap_size = 512
+
